@@ -1,0 +1,41 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header{
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+header figure{
+display: flex;
+align-items: center;
+
+}
+
+div{
+background-image: url(imagens/banner.jpg);
+height: 50vh;
+width: 100%;
+}
+
+.promo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main section figure{
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+height: 40vh;
+}
+
+.star{
+    width: 1vw;
+    height: 2vh;
+}
